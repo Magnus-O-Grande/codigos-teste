@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/*Configurações Gerais*/
+
+@media all {
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    padding: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url("empresa/prime-apresentação.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+}
+
+nav {
+    padding: 10px;
+    background-color: goldenrod;
+}
+
+nav a {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: black;
+}
+
+nav a:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 950px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+main h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-indent: 20px;
+    padding-top: 15px;
+    color: black;
+}
+
+main h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-indent: 20px;
+    padding-top: 15px;
+    color: black;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+footer {
+    padding: 30px;
+    max-width: 320px;
+    margin: auto;
+    background-color: black;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+}
+
+/*Configurações Potatio*/
+
+@media screen and (orientation: portrait){
+    header {
+        padding: 230px;
+        padding-bottom: 320px;
+        background-image: url("empresa/logo-prime-retrato-form.jpg");
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: black;
+    }
+}
+
+/*Configgurações Paisagem*/
+
+@media screen and (orientation: landscape){
+    header {
+        padding: 300px;
+        padding-left: 150px;
+        padding-right: 150px;
+        background-image: url("empresa/prime-apresentação.jpg");
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: black;
+    }
+}
+
+
+

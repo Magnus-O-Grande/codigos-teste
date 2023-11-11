@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+/*configurações gerais*/
+
+@media all {
+    :root {
+    --cor0: #3A6600;
+    --cor1: #202c0063;
+    --cor2: #a68b03;
+    --cor3: #F5BB50;
+    --cor4: #FDD87F;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Times New Roman', Times, serif; 
+}
+* {
+margin: 0px;
+padding: 0px;
+}
+body {
+    background-color: rgba(50, 205, 50, 0.856);
+}
+
+header {
+    background-image: url("imagens/img-carrossel-home02-form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 230px;
+    background-color: #F5BB50;
+}
+header > h1 {
+    font-size: 2.5em;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    background-color: rgba(211, 211, 211, 0.349);
+    color: white;
+}
+
+nav  {
+    padding: 10px;
+    background-color: rgba(144, 238, 144, 0.733);
+}
+nav a {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    color:black;
+}
+nav a:hover {
+    text-decoration: underline;
+    background-color:white;
+}
+
+main {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+    min-width: 320px;
+    max-width: 950px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+main p {
+    text-align: justify;
+    font-size: 1em;
+    text-indent: 35px;
+    line-height: 1.5em;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+main blockquote {
+    font-size: 1em;
+    text-indent: 35px;
+    margin: 10px 15px;
+    line-height: 1.5em;
+}
+
+main img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    margin: 10px 15px;
+}
+
+main h3 {
+    font-family: var(--fonte-destaque);
+    margin: 10px 15px;
+}
+
+main h4 {
+    font-family: var(--fonte-destaque);
+    margin: 10px 15px;
+}
+
+main a {
+    color: rgb(35, 35, 138);
+    text-decoration: none;
+    font-weight: bold;
+}
+main a:hover {
+    text-decoration: underline;
+}
+
+main ul {
+    list-style-position: inside;
+    margin: 10px 15px;
+    line-height: 1.5em;
+}
+
+section.imagem01 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("imagens/usina-full.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+section.imagem02 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("imagens/plataforma-de-petroleo-800.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+section.imagem03 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("imagens/usina-termelericas-800.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+section.imagem04 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("imagens/usina-termeletricca-2-800.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+section.imagem05 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("imagens/imagem-lampada2-650.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+section.imagem06 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("imagens/energia-solar-full.jpg");
+    background-size: cover;
+    background-position:left center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-color: gray;
+}
+
+section.imagem07 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("imagens/energia-eolica-800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+section.imagem08 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("imagens/represa-800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+section h3 {
+    max-width: 380px;
+    font-size: 2.4em;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(169, 169, 169, 0.26);
+}
+
+section h4 {
+    max-width: 250px;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(169, 169, 169, 0.562);
+}
+
+main div {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+}
+
+footer.prime {
+    background-color: black;
+    padding: 15px;
+    margin: auto;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+
+footer p {
+    color:white ;
+    text-align: justify;
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: goldenrod
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+}
+
+/*Configurações portates*/
+
+@media screen and (orientation: portrait){
+    header {
+        background-image: url("imagens/lampada-retrato-form.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 230px;
+        padding-bottom: 320px;
+        background-color: #F5BB50;
+    }
+    header > h1 {
+        font-size: 2.5em;
+        text-align: center;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        background-color: rgba(211, 211, 211, 0.349);
+        color: white;
+    }
+}
+
+/*Configurações paisagem*/
+
+@media screen and (orientation: landscape){
+    header {
+        background-image: url("imagens/img-carrossel-home02-form.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 230px;
+        background-color: #F5BB50;
+    }
+    header > h1 {
+        font-size: 2.5em;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        background-color: rgba(211, 211, 211, 0.349);
+        color: white;
+    }
+}
+

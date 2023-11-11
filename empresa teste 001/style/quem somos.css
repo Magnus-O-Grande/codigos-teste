@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/*Configurações Gerais*/
+
+@media all {
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-image: url("empresa/prime-apresentação.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    padding: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+header p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: goldenrod;
+}
+
+nav {
+    padding: 10px;
+    background-color: goldenrod;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: white;
+}
+
+main {
+    min-width: 320px;
+    max-width: 950px;
+    margin: auto;
+    background-color: white;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-indent: 30px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+footer {
+    max-width: 320px;
+    padding: 30px;
+    margin: auto;
+    background-color: black;
+}
+
+footer  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+}
+
+/*Configurações Portates*/
+
+@media screen and (orientation: portrait) {
+    header {
+        background-image: url("empresa/logo-prime-retrato-form.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 230px;
+        padding-bottom: 320px;
+    }
+    
+    header p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 61%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: goldenrod;
+    }
+}
+
+/*Configurações Paisagem*/
+
+@media screen and (orientation: landscape){
+    header {
+        background-image: url("empresa/prime-apresentação.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        padding: 300px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    
+    header p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5em;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: goldenrod;
+    }
+}
