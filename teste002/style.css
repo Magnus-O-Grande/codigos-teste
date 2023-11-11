@@ -9,6 +9,8 @@
     --cor2: #a68b03;
     --cor3: #F5BB50;
     --cor4: #FDD87F;
+    --cor5: #1C2E46;
+    --cor6: #1B273D;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Times New Roman', Times, serif; 
 }
@@ -269,11 +271,11 @@ footer a:hover {
     header {
         background-image: url("imagens/lampada-retrato-form.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
         background-position: center;
         padding: 230px;
         padding-bottom: 320px;
-        background-color: #F5BB50;
+        background-color: lightgreen;
     }
     header > h1 {
         font-size: 2.5em;
