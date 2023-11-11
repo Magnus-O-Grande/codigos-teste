@@ -105,6 +105,8 @@ footer img {
         background-size: contain;
         background-position: center;
         padding: 230px;
+        padding-left: 0;
+        padding-right: 0;
         padding-bottom: 320px;
     }
     
