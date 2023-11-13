@@ -99,6 +99,59 @@ ul li.intens-menu a .icone > i {
     margin-left: 10px;
 }
 
+/*Menu mobile*/
+
+nav.menu-mobile {
+    background-color: rgba(49, 49, 49, 0.788);
+    position: absolute;
+    display: block;
+    transition: .5s;
+
+}
+
+nav.menu-mobile a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    transition: .5s;
+}
+
+nav.menu-mobile a:hover {
+    color:black;
+    background-color: rgba(218, 165, 32, 0.877);
+}
+
+.btn-expandir-mobile {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.btn-expandir-mobile > i {
+    color: goldenrod;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .menu-lateral {
+        display: none;
+    }
+
+    .menu-mobile.abrir{
+        visibility: visible;
+        height: calc(100vh - 500px);
+    }
+
+    .btn-expandir-mobile {
+        display:block;
+    }
+}
+
 main {
     background-color: white;
     min-width: 320px;
@@ -175,7 +228,7 @@ footer img {
     }
 }
 
-/*Configgurações Paisagem*/
+/*Configurações Paisagem*/
 
 @media screen and (orientation: landscape) {
         header {
