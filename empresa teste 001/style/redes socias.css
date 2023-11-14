@@ -110,6 +110,62 @@ ul li.intens-menu a .icone > i {
     margin-left: 10px;
 }
 
+    /*Menu mobile*/
+
+menu {
+    display: none;
+}
+
+
+menu > ul  {
+    display: block;
+    list-style-type: none;
+}
+
+menu > ul > li > a  {
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    transition: .5s;
+    color: white;
+}
+
+menu > ul > li > a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+div.btn-expandir-mobile > i {  
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: goldenrod;
+    padding-left: 10px;
+}
+
+div.btn-expandir-mobile > i:hover{
+    background-color: goldenrod;
+    color: black;
+    transition: .5s;
+}
+
+.icone i {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 950px) {
+    nav.menu-lateral {
+        display: none;
+    }
+    
+}
+
 main {
     min-width: 320px;
     max-width: 950px;
@@ -176,6 +232,62 @@ footer img {
         transform: translate(-50%, -50%);
         color: goldenrod;
     }
+
+        /*Menu mobile*/
+
+menu {
+    display: none;
+}
+
+
+menu > ul  {
+    display: block;
+    list-style-type: none;
+}
+
+menu > ul > li > a  {
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    transition: .5s;
+    color: white;
+}
+
+menu > ul > li > a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+div.btn-expandir-mobile > i {  
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: goldenrod;
+    padding-left: 10px;
+}
+
+div.btn-expandir-mobile > i:hover{
+    background-color: goldenrod;
+    color: black;
+    transition: .5s;
+}
+
+.icone i {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 950px) {
+    nav.menu-lateral {
+        display: none;
+    }
+    
+}
 }
 
 /*Configurações Paisagem*/
@@ -277,6 +389,14 @@ footer img {
         font-size: 30px;
         color: white;
         margin-left: 10px;
+    }
+
+    menu {
+        display: none;
+    }
+
+    div.btn-expandir-mobile > i {
+        display: none;
     }
 }
 
