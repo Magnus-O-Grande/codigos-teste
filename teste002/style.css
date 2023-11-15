@@ -19,7 +19,7 @@ margin: 0px;
 padding: 0px;
 }
 body {
-    background-color: rgba(50, 205, 50, 0.856);
+    background-color: white;
 }
 
 header {
@@ -211,6 +211,17 @@ section.imagem08 {
     background-color: gray;
 }
 
+section.imagem09 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("imagens/biomassa-form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
 section h3 {
     max-width: 380px;
     font-size: 2.4em;
@@ -244,7 +255,7 @@ div.video > iframe {
 
 .font {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-indent: 35px;
     line-height: 1.5em;
     margin-left: 19px;
@@ -311,7 +322,7 @@ footer a:hover {
         background-image: url("imagens/lampada-retrato-form.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: left center;
         padding: 230px;
         padding-left: 0;
         padding-right: 0;
@@ -328,6 +339,17 @@ footer a:hover {
         font-weight: bold;
         background-color: rgba(211, 211, 211, 0.349);
         color: white;
+    }
+
+    section.imagem08 {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background-image: url("imagens/represa-800.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: gray;
     }
 }
 
