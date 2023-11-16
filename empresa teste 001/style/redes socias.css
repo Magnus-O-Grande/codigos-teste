@@ -170,20 +170,45 @@ main {
     min-width: 320px;
     max-width: 950px;
     margin: auto;
-    background-color: white;
+    border-radius: 10px;
+    background-color: #222;
 }
 
-main p {
+main h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    text-align: justify;
-    text-indent: 30px;
+    text-align: center;
     line-height: 1.5em;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: black;
+    color: white;
+}
+
+.img1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../imagens/qrcode-insta-form.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.img2 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../imagens/qrcode-x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.img3 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../imagens/qrcode-git.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 footer {

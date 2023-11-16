@@ -152,57 +152,7 @@ div.btn-expandir-mobile > i:hover{
     }
 }
 
-/*Modo dark*/
-
-main.darck {
-    background: #292c35;
-}
-
-.checkbox {
-    opacity: 0;
-    position: absolute;
-}
-
-.label {
-    background-color: white;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-    position: relative;
-    height: 26px;
-    width: 50px;
-    transform: scale(1) ;
-}
-
-.label .ball {
-    background-color: black;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 32px;
-    width: 32px;
-    transform: translateX(0px);
-    transition: transform 0.2s linear;
-}
-
-.checkbox:checked + .label .ball {
-    transform: translateX(24px);
-}
-
-
-
-label > i {
-    color: #f29c12;
-    font-size: 20px;
-}
-
 main {
-    display: flex;
-    transition: background 0.2s linear;
     background-color: white;
     min-width: 320px;
     max-width: 800px;
@@ -216,6 +166,8 @@ main h2 {
     font-size: 1.5em;
     line-height: 1.5em;
     text-indent: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding-top: 15px;
     color: black;
 }
@@ -225,6 +177,8 @@ main h3 {
     font-size: 1.5em;
     line-height: 1.5em;
     text-indent: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding-top: 15px;
     color: black;
 }
@@ -239,6 +193,56 @@ main p {
     padding-top: 15px;
     padding-bottom: 15px;
     color: black;
+}
+
+.img1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: grey;
+    background-image: url("../imagens/designer-personalizado-form.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color: grey;
+    background-image: url("../imagens/experiencia-usuario-form.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color: grey;
+    background-image: url("../imagens/desenvolvimento-avancado-form.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img4 {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color: grey;
+    background-image: url("../imagens/integracao-midia-social-form.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img5 {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color: grey;
+    background-image: url("../imagens/suporte-continuo-form.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
