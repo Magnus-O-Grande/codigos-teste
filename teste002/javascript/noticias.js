@@ -6,8 +6,6 @@ noticias.addEventListener('click', ()=>{
     window.location.href="https://noticias.r7.com/economia/energia-solar-e-a-segunda-mais-usada-no-brasil-mostra-associacao-17082023"
 })
 
-//noticias secundarias
-
 let noticiasS2 = document.querySelector('.outras-noticias-1-single');
 
 noticiasS2.addEventListener('click', ()=>{
@@ -30,4 +28,34 @@ let noticiasS5 = document.querySelector('.outras-noticias-4-single');
 
 noticiasS5.addEventListener('click', ()=>{
     window.location.href="https://www.terra.com.br/noticias/geracao-de-energia-solar-pode-movimentar-r-22-tri-ate-2050,f255abdf4dec60a430ad8f5fb62187c18qv0an7h.html"
+})
+
+let noticiasS6 = document.querySelector('.noticia-destaque-2-single');
+
+noticiasS6.addEventListener('click', ()=>{
+    window.location.href="https://epbr.com.br/amazon-anuncia-primeiro-parque-eolico-no-brasil/"
+})
+
+let noticiasS7 = document.querySelector('.outras-noticias-5-single');
+
+noticiasS7.addEventListener('click', ()=>{
+    window.location.href="https://umsoplaneta.globo.com/energia/noticia/2023/05/11/pela-1a-vez-na-historia-energia-eolica-supera-gas-e-e-a-principal-fonte-de-eletricidade-no-reino-unido.ghtml"
+})
+
+let noticiasS8 = document.querySelector('.outras-noticias-6-single');
+
+noticiasS8.addEventListener('click', ()=>{
+    window.location.href="https://www.infomoney.com.br/negocios/empresas-miram-transicao-energetica-e-investem-bilhoes-de-reais-em-usinas-eolicas-no-brasil/"
+})
+
+let noticiasS9 = document.querySelector('.outras-noticias-7-single');
+
+noticiasS9.addEventListener('click', ()=>{
+    window.location.href="https://www.agenciaminas.mg.gov.br/noticia/parque-eolico-volta-do-rio-passa-a-operar-com-totalidade-sob-gestao-da-cemig"
+})
+
+let noticiasS10 = document.querySelector('.outras-noticias-7-single');
+
+noticiasS10.addEventListener('click', ()=>{
+    window.location.href="https://www.agenciaminas.mg.gov.br/noticia/parque-eolico-volta-do-rio-passa-a-operar-com-totalidade-sob-gestao-da-cemig"
 })
