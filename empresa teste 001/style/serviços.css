@@ -170,6 +170,7 @@ main {
     min-width: 320px;
     max-width: 950px;
     margin: auto;
+    border-radius: 15px;
     background-color: white;
 
 }
@@ -189,6 +190,7 @@ main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     text-align: justify;
+    text-indent: 15px;
     line-height: 1.5em;
     margin-left: 20px;
     margin-right: 20px;
@@ -241,7 +243,7 @@ main p {
     padding-top: 300px;
     padding-bottom: 300px;
     background-color: grey;
-    background-image: url("../imagens/design-personalizado-form.jpg");
+    background-image: url("../imagens/redes-sociais-form.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -251,7 +253,7 @@ main p {
     padding-top: 300px;
     padding-bottom: 300px;
     background-color: grey;
-    background-image: url("../imagens/redes-sociais-form.jpg");
+    background-image: url("../imagens/analise-monitoramento-form.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -261,7 +263,7 @@ main p {
     padding-top: 300px;
     padding-bottom: 300px;
     background-color: grey;
-    background-image: url("../imagens/analise-monitoramento-form.jpg");
+    background-image: url("../imagens/manuteção.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
