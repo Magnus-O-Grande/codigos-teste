@@ -90,10 +90,15 @@ main h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
     text-align: center;
-    width: 500px;
+    width: 350px;
     margin: auto;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 .p p{
@@ -112,6 +117,13 @@ main h3 {
 
 .p a:hover {
     text-decoration: underline;
+}
+
+.fonte {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 footer {

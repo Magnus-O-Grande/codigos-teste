@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-* {
+@media all {
+    * {
     margin: 0;
     padding: 0;
 }
@@ -163,3 +164,20 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+}
+
+/*configurações portateis*/
+
+@media screen and (orientation: portrait){
+    .img2 {
+        padding-top: 300px;
+        padding-bottom: 300px;
+        background-image: url("../imagens/painel-solar-not-form.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+        background-color: gray;
+    
+    }
+}
+
