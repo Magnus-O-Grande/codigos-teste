@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/*Device BreakPoints
+---------------------
+Pequenas telas: até 600px
+Celulares: de 600px até 768px
+Tabletes: de 768px até 992px
+DeskTop: de 992px até 1200px
+Televisão: de 1200px até 1400px
+*/
+
 @media all {
     * {
     margin: 0;
@@ -180,4 +189,3 @@ footer a:hover {
     
     }
 }
-

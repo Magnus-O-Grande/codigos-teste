@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/*Device BreakPoints
+---------------------
+Pequenas telas: até 600px
+Celulares: de 600px até 768px
+Tabletes: de 768px até 992px
+DeskTop: de 992px até 1200px
+Televisão: de 1200px até 1400px
+*/
+
 /*configurações gerais*/
 
 @media all {
@@ -337,7 +346,7 @@ footer a:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        background-color: rgba(211, 211, 211, 0.349);
+        background-color: rgba(0, 0, 0, 0.6);
         color: white;
     }
 
@@ -353,9 +362,10 @@ footer a:hover {
     }
 }
 
-/*Configurações paisagem*/
+/*Outras configurações*/
 
-@media screen and (orientation: landscape){
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
     header {
         background-image: url("imagens/img-carrossel-home02-form.jpg");
         background-repeat: no-repeat;
@@ -372,8 +382,53 @@ footer a:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        background-color: rgba(211, 211, 211, 0.349);
+        background-color: rgba(0, 0, 0, 0.6);
         color: white;
     }
 }
 
+/*DeskTop*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    header {
+        background-image: url("imagens/img-carrossel-home02-form.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 230px;
+        background-color: #F5BB50;
+    }
+    header > h1 {
+        font-size: 2.5em;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+    }
+}
+
+/*Televisão*/
+@media screen and (min-width: 1200px){
+    header {
+        background-image: url("imagens/img-carrossel-home02-form.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 230px;
+        background-color: #F5BB50;
+    }
+    header > h1 {
+        font-size: 2.5em;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+    }
+}
