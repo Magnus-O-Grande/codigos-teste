@@ -72,6 +72,7 @@ ul li.intens-menu a {
 ul li.intens-menu:hover {
     background-color: rgba(218, 165, 32, 0.877);
 }
+
 ul li.intens-menu {
     transition: 0.3s;
 }
